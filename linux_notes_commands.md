@@ -3,7 +3,7 @@
 cat  
 
 chmod  
-    chmod <file> perms  
+    chmod [file] perms  
     3 digit number that controls specific perms  
     User|Group|Everyone else not a user/group  
     777 = All perms to everything  
@@ -20,12 +20,12 @@ chmod
         So listed above the effective perms would be 644  
 
 rm = remove  
-mv - move           mv <file> <dest>  
-mkdir - make dir    mkdir <name>  
-cp = copies         cp <file> <dest>  
+mv - move           mv [file] [dest]  
+mkdir - make dir    mkdir [name]  
+cp = copies         cp [file] [dest]  
 cd = change dir  
-ln = hard linking   ln <source> <dest>  
-ln -s = symlink     ln -s <file> <dest> ** Reference pointer **  
+ln = hard linking   ln [source] [dest]  
+ln -s = symlink     ln -s [file] [dest] **Reference pointer**  
 
 find && grep  
     I'm still struggling with this one, so more notes will come  
